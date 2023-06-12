@@ -203,10 +203,9 @@ class Login {
         })
 
         loginBtn.addEventListener("click", async () => {
-            cancelMojangBtn.disabled = true;
-            loginBtn.disabled = true;
-            mailInput.disabled = true;
-            passwordInput.disabled = true;
+            cancelMojangBtn.disabled = false;
+            loginBtn.disabled = false;
+            mailInput.disabled = false;
             infoLogin.innerHTML = "Connexion en cours...";
 
 
@@ -228,7 +227,7 @@ class Login {
                 return
             }
 
-            let account_connect = await Mojang.login(mailInput.value, passwordInput.value)
+            let account_connect = await Mojang.login(mailInput.value)
 
             if (account_connect == null || account_connect.error) {
                 console.log(err)
@@ -264,7 +263,6 @@ class Login {
             mailInput.value = "";
             loginBtn.disabled = false;
             mailInput.disabled = false;
-            passwordInput.disabled = false;
             loginBtn.style.display = "block";
             infoLogin.innerHTML = "&nbsp;";
         })
