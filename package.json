@@ -1,7 +1,7 @@
 {
     "name": "HessCraft-Launcher",
     "preductname": "HessCraft Launcher",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Launcher HessCraft",
     "main": "src/app.js",
     "author": "ZipName",
