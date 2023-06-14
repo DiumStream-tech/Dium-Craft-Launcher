@@ -1,11 +1,11 @@
 {
-    "name": "HessCraft-Launcher",
-    "preductname": "HessCraft Launcher",
+    "name": "HessMC-Launcher",
+    "preductname": "HessMC Launcher",
     "version": "1.1.2",
-    "description": "Launcher HessCraft",
+    "description": "Launcher HessMC",
     "main": "src/app.js",
     "author": "ZipName",
-    "url": "https://launcher.hesscraft.com",
+    "url": "https://launcher.hessmc.net",
     "engines": {
         "node": "^18.x.x"
     },
