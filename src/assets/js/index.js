@@ -23,10 +23,12 @@ class Splash {
     async startAnimation() {
         let splashes = [
             { "message": "Le HessSD c'est Rapide", "author": "Lorelix" },
-            { "message": "Je m'occupe des NAT", "author": "MAG" },
             { "message": "Tu voc bgax ?", "author": "Harrysto" },
             { "message": "J'enc*le ma peur", "author": "Lenoxx" },
             { "message": "Vive les croc dindes", "author": "GweN" },
+            { "message": "Même quand je parle pas je me fais détruire", "author": "ZipName" },
+            { "message": "SALUT TOUT LE MONDE C'EST ZAXCUBE !", "author": "Zaxcube" },
+            { "message": "Y'a le froc d'Antoine", "author": "Lenoxx" },
             { "message": "Ça me va droit au c*l", "author": "GweN" }
         ]
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
