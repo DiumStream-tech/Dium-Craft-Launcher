@@ -1,11 +1,11 @@
 {
-    "name": "HessMC-Launcher",
-    "preductname": "HessAdventure Launcher",
-    "version": "2.0.0",
-    "description": "Launcher HessAdventure",
+    "name": "Dium-Craft-Launcher",
+    "preductname": "Dium-Craft Launcher",
+    "version": "1.0.4",
+    "description": "Launcher Dium-Craft",
     "main": "src/app.js",
-    "author": "ZipName",
-    "url": "https://launcher.zipname.fr",
+    "author": "DiumStream",
+    "url": "https://launcher.dium-craft.fr",
     "engines": {
         "node": "^18.x.x"
     },
@@ -34,6 +34,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ZipName80/HessMC-Launcher.git"
+        "url": "git+https://github.com/DiumStream-tech/Dium-Craft-Launcher.git"
     }
 }
