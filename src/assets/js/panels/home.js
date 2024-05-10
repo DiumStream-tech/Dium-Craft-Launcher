@@ -5,7 +5,7 @@
 
 'use strict';
 
-import { logger, database, changePanel } from '../utils.js';
+import { changePanel, database, logger } from '../utils.js';
 
 const { Launch, Status } = require('minecraft-java-core');
 const { ipcRenderer } = require('electron');
