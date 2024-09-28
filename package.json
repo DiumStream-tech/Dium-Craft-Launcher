@@ -1,11 +1,11 @@
 {
-    "name": "Conflictura",
-    "preductname": "Conflictura Launcher",
-    "version": "3.0.0",
-    "description": "Conflictura modded server launcher",
+    "name": "Dium-Craft",
+    "preductname": "Dium-Craft Launcher",
+    "version": "1.0.0",
+    "description": "Dium-Craft modded server launcher",
     "main": "src/app.js",
     "author": "Riptiaz/Boulldogo/Vexato/Luuxis",
-    "settings": "https://dev.conflictura.eu",
+    "settings": "https://launcher.Dium-Craft.fr",
     "engines": {
         "node": "16.x.x"
     },
@@ -34,6 +34,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Riptiaz/CentralCorp-Launcher.git"
+        "url": "git+https://github.com/DiumStream-tech/Dium-Craft-Launcher.git"
     }
 }
