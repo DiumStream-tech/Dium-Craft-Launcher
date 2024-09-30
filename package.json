@@ -1,7 +1,7 @@
 {
     "name": "Dium-Craft",
     "preductname": "Dium-Craft Launcher",
-    "version": "1.0.0",
+    "version": "1.0.9",
     "description": "Dium-Craft modded server launcher",
     "main": "src/app.js",
     "author": "Riptiaz/Boulldogo/Vexato/Luuxis",
